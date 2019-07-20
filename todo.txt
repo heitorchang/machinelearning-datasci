@@ -1,4 +1,4 @@
 Anaconda: check and install if needed
-openblas
-hdf5
-graphviz
+[OK] openblas
+[OK] hdf5
+[OK] graphviz
