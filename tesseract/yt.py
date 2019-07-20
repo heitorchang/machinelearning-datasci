@@ -1,17 +1,15 @@
+import sys
 import pytesseract
 from pytesseract import Output
 import cv2
 import pyscreenshot as ImageGrab
 
-# 
-
 if __name__ == "__main__": 
     # imggrab = ImageGrab.grab()
-
     # imggrab.save('tmp.png')
 
 
-    img = cv2.imread('ytmadonna.png')
+    img = cv2.imread(sys.argv[1])
     img = cv2.resize(img, None, fx=4.0, fy=4.0, interpolation=cv2.INTER_LINEAR)
 
     
