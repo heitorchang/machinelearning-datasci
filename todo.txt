@@ -1,0 +1,4 @@
+Anaconda: check and install if needed
+openblas
+hdf5
+graphviz
