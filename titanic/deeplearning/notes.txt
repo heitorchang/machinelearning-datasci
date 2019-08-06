@@ -1,0 +1,7 @@
+page numbers are PDF's, not book's
+
+87 use model.compile(optimizer='rmsprop',
+loss='binary_crossentropy',
+metrics=['accuracy'])
+
+91 the rmsprop optimizer is generally a good enough choice
