@@ -51,12 +51,12 @@ with open(TRAIN_CSV) as t, open(MASSAGED, 'w') as m, open(SURVIVED, 'w') as s:
             agem = avg_age
         
         # pclass, sex, age, sibsp, par, fare
-        print("{},{},{},{},{},{}".format(pclass,
+        print("{},{},{},{},{},{}".format(round(int(pclass) / 3, 6),
                                          1 if sex == 'male' else 0,
-                                         agem,
-                                         sib,
-                                         par,
-                                         round(float(fare))),
+                                         round(int(agem) / 80, 6),
+                                         round(int(sib) / 8, 6),
+                                         round(int(par) / 6, 6),
+                                         round(float(fare) / 512, 6)),
               file=m)
 
         
