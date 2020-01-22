@@ -1,0 +1,1 @@
+[  ] normalize data by taking mean and vary by standard deviation (p. 100 (86))
